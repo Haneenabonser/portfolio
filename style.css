@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+main{
+    background-image: url("img/hero.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1400px; 
+    height:600px;
+    margin-left:45px ;
+}
+
+h1{
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    margin-left:50px;
+    margin-top: 15px;
+    margin-bottom: -10px;
+    font-size: 45px;
+}
+ul{
+    float: right;
+    margin-right: 100px;
+    margin-top: -42px;
+    font-size: 25px;
+}
+ul li{
+    display: inline-block;
+  color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: blue;
+}
+p{
+    color: white;
+}
+#one{
+    position: absolute;
+    left: 62%;
+    top: 53%;
+    font-size: 25px;
+    font-weight: bolder;
+    text-shadow: black 1px 1px;
+    
+}
+#two{
+    position: absolute;
+    left: 60%;
+    top: 55%;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: black 1px 1px;
+    
+
+}
